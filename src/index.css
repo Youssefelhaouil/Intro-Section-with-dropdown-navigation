@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height: 100vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+@media (max-width: 768px) {
+  body{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
