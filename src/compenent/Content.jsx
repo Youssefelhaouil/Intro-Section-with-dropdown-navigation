@@ -3,6 +3,8 @@ import audiophile from '../assets/images/client-audiophile.svg';
 import databiz from '../assets/images/client-databiz.svg';
 import maker from '../assets/images/client-maker.svg';
 import meet from '../assets/images/client-meet.svg';
+import imgDesktop from '../assets/images/image-hero-desktop.png';
+import imgMobile from '../assets/images/image-hero-mobile.png';
 
 export default function Content({ isOpen }) {
 
@@ -25,8 +27,8 @@ export default function Content({ isOpen }) {
                     </div>
                 </div>
                 <div className="">
-                    <img className="block  md:hidden h-[600px] w-[700px] " src="src/assets/images/image-hero-desktop.png" alt="" />
-                    <img className=" hidden md:block h-auto" src="src/assets/images/image-hero-mobile.png" alt="" />
+                    <img className="block md:hidden h-[600px] w-[700px] " src={imgDesktop} alt="" />
+                    <img className=" hidden md:block h-auto" src={imgMobile} alt="" />
 
                 </div>
             </div>
